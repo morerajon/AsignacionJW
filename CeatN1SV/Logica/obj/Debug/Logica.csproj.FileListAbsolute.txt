@@ -1,0 +1,7 @@
+C:\CeatN1SV\Logica\bin\Debug\Logica.dll
+C:\CeatN1SV\Logica\bin\Debug\Logica.pdb
+C:\CeatN1SV\Logica\obj\Debug\Logica.dll
+C:\CeatN1SV\Logica\obj\Debug\Logica.pdb
+C:\CeatN1SV\Logica\bin\Debug\Datos.dll
+C:\CeatN1SV\Logica\bin\Debug\Datos.pdb
+C:\CeatN1SV\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
