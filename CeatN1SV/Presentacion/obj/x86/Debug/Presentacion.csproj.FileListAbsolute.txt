@@ -17,12 +17,6 @@ C:\CeatN1SV-main\Presentacion\bin\Debug\Datos.dll
 C:\CeatN1SV-main\Presentacion\bin\Debug\Logica.dll
 C:\CeatN1SV-main\Presentacion\bin\Debug\Datos.pdb
 C:\CeatN1SV-main\Presentacion\bin\Debug\Logica.pdb
-C:\CeatN1SV\Presentacion\bin\Debug\Presentacion.exe
-C:\CeatN1SV\Presentacion\bin\Debug\Presentacion.pdb
-C:\CeatN1SV\Presentacion\bin\Debug\Datos.dll
-C:\CeatN1SV\Presentacion\bin\Debug\Logica.dll
-C:\CeatN1SV\Presentacion\bin\Debug\Datos.pdb
-C:\CeatN1SV\Presentacion\bin\Debug\Logica.pdb
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.FrmEditarMat.resources
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.FrmBajaMat.resources
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.FrmUsuarioPerfil.resources
@@ -33,5 +27,12 @@ C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.LogIn.resources
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.MenuPrincipal.resources
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.Properties.Resources.resources
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\CeatN1SV\Presentacion\bin\Debug\Presentacion.exe
+C:\CeatN1SV\Presentacion\bin\Debug\Presentacion.pdb
+C:\CeatN1SV\Presentacion\bin\Debug\Datos.dll
+C:\CeatN1SV\Presentacion\bin\Debug\Logica.dll
+C:\CeatN1SV\Presentacion\bin\Debug\Datos.pdb
+C:\CeatN1SV\Presentacion\bin\Debug\Logica.pdb
+C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.csprojResolveAssemblyReference.cache
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.exe
 C:\CeatN1SV\Presentacion\obj\x86\Debug\Presentacion.pdb

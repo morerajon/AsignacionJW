@@ -2,4 +2,3 @@ C:\CeatN1SV\Datos\bin\Debug\Datos.dll
 C:\CeatN1SV\Datos\bin\Debug\Datos.pdb
 C:\CeatN1SV\Datos\obj\Debug\Datos.dll
 C:\CeatN1SV\Datos\obj\Debug\Datos.pdb
-C:\CeatN1SV\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache

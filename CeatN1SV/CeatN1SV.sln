@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{ED1A8111-6FFB-4F50-BBBD-4421523E64C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}"
-EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = CeatN1SV.vsmdi
@@ -52,16 +50,6 @@ Global
 		{ED1A8111-6FFB-4F50-BBBD-4421523E64C8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{ED1A8111-6FFB-4F50-BBBD-4421523E64C8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{ED1A8111-6FFB-4F50-BBBD-4421523E64C8}.Release|x86.ActiveCfg = Release|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{EFB4EA53-8FEA-4DB3-89FA-965FD1224015}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
