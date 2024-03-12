@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    background-image: url('img/paisaje-montana-violeta-lago-montanas-al-fondo_795881-1969.avif');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.login{
+
+    width: 400px;
+    height: 470px;
+    background-color: rgba(250, 235, 215, 0.658);
+    
+    border-radius: 10%;
+    overflow: hidden;
+    
+}
+
+.titulo{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b00e0d5, #8d2de2d5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 400px;
+    color: rgba(240, 248, 255, 0.795);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+   
+}
+.password {
+    position: relative;
+}
+
+.password i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+h1{
+    font-size: 1.3em;
+    color: #8E2DE2;
+    padding: 10px;
+
+}
+.txt-input-label{
+    
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+   
+   
+}
+
+.items{
+    padding: 5px 20px;
+}
+
+.form-control{
+    margin-top: 5px;
+    margin-bottom: 7px;
+    width: 350px;
+    text-align: center;
+    padding-top: 3px;
+    
+   
+}
+
+.btn {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b00e0d5, #8d2de2d5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: antiquewhite;
+    border-radius: 40%;
+    font-size: 1.2em;
+    padding:10px 10px;
+    width: 200px;
+    border: none;
+    margin: 15px 80px ;
+}
+
+.remember-forgot{
+    margin-top: 50px;
+}
+.txtlbl{
+
+    font-size: 1.2em;
+     
+}
+
+.bx{
+    color: #8E2DE2;
+    position: relative;
+    left: 332px;
+    top: -27px;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: black;
+    width: 100 vw;
+}
+
+.inferior{
+    display: flex;
+   
+    
+}
+.box1{
+    background-color: #8E2DE2;
+    width: 200px; ;
+    height: 400px;
+}
+
+.box2{
+    background-color:salmon;
+    width: 200px; ;
+    height: 400px;
+}
+.box3{
+    background-color: slateblue;
+    width: 200px; ;
+    height: 400px;
+}
