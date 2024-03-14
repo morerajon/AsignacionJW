@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.log{
+    display: flex;
+    background-image: url('img/paisaje-montana-violeta-lago-montanas-al-fondo_795881-1969.avif');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.login{
+
+    width: 400px;
+    height: 470px;
+    background-color: rgba(250, 235, 215, 0.658);
+    border-radius: 10%;
+    overflow: hidden;
+    
+}
+
+.titulo{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b00e0d5, #8d2de2d5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 400px;
+    color: rgba(240, 248, 255, 0.795);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+   
+}
+.password {
+    position: relative;
+}
+
+.password i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+h1{
+    font-size: 1.3em;
+    color: #8E2DE2;
+    padding: 10px;
+
+}
+.txt-input-label{
+    
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+   
+   
+}
+
+.items{
+    padding: 5px 20px;
+}
+
+.form-control{
+    margin-top: 5px;
+    margin-bottom: 7px;
+    width: 350px;
+    text-align: center;
+    padding-top: 3px;
+    
+   
+}
+
+.btn {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b00e0d5, #8d2de2d5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: antiquewhite;
+    border-radius: 40%;
+    font-size: 1.2em;
+    padding:10px 10px;
+    width: 200px;
+    border: none;
+    margin: 15px 80px ;
+}
+
+.remember-forgot{
+    margin-top: 50px;
+}
+.txtlbl{
+
+    font-size: 1.2em;
+     
+}
+
+.bx{
+    color: #8E2DE2;
+    position: relative;
+    left: 332px;
+    top: -27px;
+    cursor: pointer;
+}
+/*segunno formulario*/
+
+.menu1{
+    
+    min-height: 100vh;
+}
+.menu{
+    background-color: black;
+    height:5vh;
+}
+
+img{
+    height: 50vh;
+    width: 50vw;
+}
+.m-Usuario{
+  position: relative;
+  background-color: beige;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  top: 10px;
+  left: 5px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+}
+
+.card{
+    width: 50%;
+    margin: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2) ;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+} 
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card.contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #8E2DE2;
+    border: 1px solid #2fb4cc;
+    transition: all 400ms ease;
+}
+
+.card.contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
