@@ -1,0 +1,10 @@
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.FrmEditarMat.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.FrmBajaMat.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.FrmUsuarioPerfil.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.FrmVerMat.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.FrmNuevaMat.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.FrmUsuario.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.LogIn.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.MenuPrincipal.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.Properties.Resources.resources
+C:\CeatN1SV\Presentacion\obj\x86\Release\Presentacion.csproj.GenerateResource.Cache

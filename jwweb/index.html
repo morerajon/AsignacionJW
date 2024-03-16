@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="log">
+    <div class="login">
+     <div class="titulo">Asistente JW</div>
+     <h1>Iniciá sesión</h1>
+     <div class="items">
+        <label id="username" for="username"  class="txt-input-label ">Tu usuario:</label><br>
+     <div class="user"><input id="username"  type="text" placeholder="Ingresá tu nombre de usuario" class="form-control"  maxlength="25" autocomplete="off" required><i class='bx bxs-user'></i></div>
+
+     <label id="password"   class="txt-input-label">Tu Clave:</label>
+     <div class="password">
+      <input id="encryptedHTML"  type="password" placeholder="Ingresá tu  Clave" class="form-control" aria-invalid="true" pattern=".*" maxlength="25" autocomplete="off" required ><i class='bx bxs-hide' onclick="OcultarMostrar()" ></i></div>
+     <button  type="submit" form="loginForm" class="btn " onclick="redireccionar()"> Ingresar</button>
+     <div class="remember-forgot txtlbl">
+        <label ><input type="checkbox" value="true">Recuerdame</label>
+        <a href="#">olvidaste la clave/usuario</a>
+     </div>
+     <br>
+     <div class="register-link txtlbl">
+        <p>aun no tienes cuenta?<a href="#">Registrate</a></p>
+     </div>
+h3*6
+
+    </div>
+     
+    </div>
+    <div></div>
+</body>
+</html>
