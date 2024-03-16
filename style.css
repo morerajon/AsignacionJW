@@ -107,18 +107,32 @@ h1{
 /*segunno formulario*/
 
 .menu1{
-    
-    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 .menu{
-    background-color: black;
+    background-color:  rgb(1, 26, 64);;    
     height:5vh;
 }
 
-img{
-    height: 50vh;
-    width: 50vw;
+.contenedorI{
+    height: 60vh;
+    width: 40vw;
+    overflow: hidden; /* Asegura que la imagen no se desborde del contenedor */
+    display: flex; /* Alinea la imagen dentro del contenedor */
+    justify-content: center; /* Centra horizontalmente la imagen */
+    align-items: center; /* Centra verticalmente la imagen */
 }
+img{
+    max-width: 100%; /* La imagen no puede ser más ancha que el contenedor */
+    max-height: 100%; /* La imagen no puede ser más alta que el contenedor */
+    object-fit: contain;
+    
+
+}
+
+
 .m-Usuario{
   position: relative;
   background-color: beige;
@@ -129,15 +143,18 @@ img{
   left: 5px;
 }
 
-.container{
+
+.container {
     width: 100%;
     display: flex;
-    max-width: 100%;
+    background-color: rgb(235, 238, 243);
+    margin: 0;
+   
 }
 
 .card{
     width: 50%;
-    margin: 40px;
+    margin:  73px 40px;
     border-radius: 6px;
     overflow: hidden;
     background-color: #fff;
