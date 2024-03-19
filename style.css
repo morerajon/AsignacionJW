@@ -10,8 +10,7 @@
     background-size: cover;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    
+    min-height: 100vh;    
 }
 
 .login{
@@ -194,3 +193,20 @@ img{
     background: #2fb4cc;
     color: #fff;
 }
+
+.vymBody{
+    display: flex;
+    background-color: antiquewhite;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+}
+
+
+.estructura1{
+border-style: solid;
+height: 100px;
+width: 100px;
+}
+
