@@ -5,6 +5,10 @@ function redireccionar() {
     window.location.href = "inicio.html";
 }
 
+function redireccionar2() {
+    // Redirige a la página deseada
+    window.location.href = "vym.html";
+}
 
 function OcultarMostrar() {
     const passwordInput = document.getElementById('encryptedHTML');

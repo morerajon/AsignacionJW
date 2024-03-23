@@ -70,8 +70,7 @@ h1{
     width: 350px;
     text-align: center;
     padding-top: 3px;
-    
-   
+
 }
 
 .btn {
@@ -79,12 +78,14 @@ h1{
     background: -webkit-linear-gradient(to left, #4b00e0d5, #8d2de2d5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: antiquewhite;
-    border-radius: 40%;
+    border-radius: 10px;
     font-size: 1.2em;
     padding:10px 10px;
     width: 200px;
     border: none;
     margin: 15px 80px ;
+
+    
 }
 
 .remember-forgot{
@@ -193,20 +194,93 @@ img{
     background: #2fb4cc;
     color: #fff;
 }
-
+/*vym*/
 .vymBody{
     display: flex;
-    background-color: antiquewhite;
+    background-color:rgba(0, 0, 0, 0.2);
     background-size: cover;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;    
+    min-height: 100vh; 
+    margin-top: 8vh;   
+    padding-top: 1vh;
+   
 }
 
 
 .estructura1{
 border-style: solid;
-height: 100px;
-width: 100px;
+height: 90vh;
+width: 40vw;
+background-color: #fff;
+overflow: hidden;
 }
 
+.BotonMenu{
+flex-direction: row;
+width: 30vw;
+align-items: center;
+
+}
+.nombreCongre{
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+.week{
+    background-color: chocolate;
+    height: 25vh;
+    width: 100%;
+    border-color: black;
+}
+.rowHeader{
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.icon{
+    
+    height: 3.7vh;
+    width: 3.7vh;
+    border-radius: 5px;
+    object-fit: fill;
+
+}
+
+.row1{
+    background-color: chartreuse;
+    flex-direction: column;
+    font-size: 11px;
+    width: 100%;
+}
+
+.Cancion1{
+    width: 20px;
+    
+}
+
+.columna3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+}
+
+.celdaA1,
+.celdaA2,
+.celdaA3 {
+    flex-grow: 1;
+}
+
+.celdaA1 {
+    background-color: #4A00E0;
+}
+
+.celdaA2 {
+    background-color: #55398b91;
+}
+
+.celdaA3 {
+    background-color: #e000d5;
+}
