@@ -1,8 +1,14 @@
+/*:root ver el tema del root con a letra iy quizas tambien lo pueda usar*/
+
 *{
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+    
+
 
 .log{
     display: flex;
@@ -213,6 +219,7 @@ height: 90vh;
 width: 40vw;
 background-color: #fff;
 overflow: hidden;
+font-size: 12px;
 }
 
 .BotonMenu{
@@ -255,9 +262,13 @@ justify-items: center;
     object-fit: fill;
 
 }
-
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centrar los elementos horizontalmente */
+    text-align: center;
+}
 .row1{
-    flex-direction: column;
     font-size: 11px;
     width: 100%;
 }
@@ -314,9 +325,37 @@ input{
 }
 
 .TESOROS{
-    height: 1.7vh;
-    width: 1.7vh;
+    height: 2.7vh;
+    width: 2.7vh;
     border-radius: 5px;
     object-fit: fill;
     overflow: hidden;
+}
+
+.subtitulos{
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+}
+.colorgreen{
+    color: darkolivegreen;
+    background-color: white;
+    
+}
+.tiempo{
+    color: #6a6a6a;
+}
+.hermanoAsig{
+    color: #6a6a6a;
+    font-weight: bold;
+    text-align: right;
+}
+
+.widthauto{
+    width: auto; /* Ancho automático */
+
+}
+
+.flex1{
+    flex-grow: 1;
 }
