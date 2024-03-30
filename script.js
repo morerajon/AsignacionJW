@@ -25,6 +25,21 @@ function OcultarMostrar() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('#btnConvertirPDF').addEventListener('click', function () {
+        html2canvas(document.querySelector('#contenido')
+        , {
+            scale: 0.8, // Escala la captura al 80%
+            logging: true, // Habilita el registro para depuración
+            width: 1000 // Ancho del canvas
+        }).then((canvas) => {
+            let base64image = canvas.toDataURL('image/png');
+            let pdf = new jsPDF('p', 'px', [canvas.width-5, canvas.height]);
+            pdf.addImage(base64image, 'PNG', 0, 0, canvas.width, canvas.height);
+            pdf.save('estructura1.pdf');
+        });
+    });
+});
 
-
+v
 

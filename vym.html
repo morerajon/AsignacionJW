@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vida y ministerio</title>
     <link rel="stylesheet" href="style.css">
+
+</head>
 </head>
 <body class="vymBody">
     <div class="BotonMenu">
         <button class="btn  btnVym">Vista Previa</button>
         <button class="btn btnVym">Editar</button>
-        <button class="btn btnVym" >Imprimir PDF</button>
+        <button class="btn btnVym" id="btnConvertirPDF" >Imprimir PDF</button>
         <button class="btn btnVym">Imprimir JPG</button>
     </div>
-    <div class="estructura1"> 
+
+    <div class="estructura1"  id="contenido"> 
         <div class="nombreCongre">
             <p><u>Congregacion San Vicente Este</u></p>
             <p><u>Reunion Vida y Ministerio</u></p>
@@ -24,42 +27,132 @@
                 <div class="rowHeader">
                     <img src="img/179.jpeg" class="icon" alt="">
                     <div class="row1"> 
-                        <div class="Semana"><input  type="text" placeholder="ingrese la Semana"></div>
-                        <div class="columna3">
-                           <div class="celdaA1"><input type="text" placeholder="texto"></div>
-                           <div class="celdaA2"> Cancion:<input type="text" class="num" placeholder="num"> y oracion <input type="text" class="hermanos" placeholder="hermano"></div>
-                           <div class="celdaA3">Presidente:<input type="text" placeholder="Presidente" class="Presidente"></div>
+                        <div class="Semana font2"><input  type="text" placeholder="ingrese la Semana"  class="background-Color242 fontS"></div>
+                        <div class="columna3 ">
+                           <div class="celdaA1"><input type="text" placeholder="texto" class="background-Color242"></div>
+                           <div class="celdaA2"> Cancion:<input type="text" class="num background-Color242" placeholder="num" > y oracion <input type="text" class="hermanos background-Color242" placeholder="hermano" ></div>
+                           <div class="celdaA3 ">Presidente:<input type="text" placeholder="Presidente" class="Presidente background-Color242"></div>
                         </div>
                        
                     </div>
                 </div>
                 
             </div>
-
+            <HR></HR>
 
             <div class="row">
                 <img src="img/PERLAS.jpg" class="TESOROS" alt="TESOROS"> <P class="colorgreen subtitulos" >TESOROS DE LA BIBLIA</P>
             </div>
             <div class="row">
-                <input type="text" placeholder="1-ingrese el tema" class="colorgreen widthauto">
-                <input type="text" placeholder="tiempo" class="tiempo widthauto">
+                <div class="seccion1 row">
+                    <input type="text" placeholder="1-ingrese el tema" class="colorgreen widthauto flex1 first-div" id="texto-input" oninput="resizeParent()"onpaste="setTimeout(resizeParent, 0)">
+                    <input type="text" placeholder="tiempo" class="tiempo widthauto second-div">
+                </div>
+                
                 <input type="text" placeholder="hermanoAsig" class="hermanoAsig">
             </div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+            <div class="row">
+                <div class="seccion1 row">
+                    <input type="text" placeholder="2-ingrese el tema" class="colorgreen widthauto flex1 first-div" oninput="resizeParent()"onpaste="setTimeout(resizeParent, 0)">
+                    <input type="text" placeholder="tiempo" class="tiempo widthauto second-div">
+                </div>
+                
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig">
+                
+            </div>
+            <div class="row">
+                <div class="seccion1 row">
+                    <input type="text" placeholder="3-ingrese el tema" class="colorgreen widthauto flex1 first-div" oninput="resizeParent()"onpaste="setTimeout(resizeParent, 0)">
+                    <input type="text" placeholder="tiempo" class="tiempo widthauto second-div">
+                </div>
+                
+                <input type="text" placeholder="textos a leer">
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig">
+            </div>
+            
+            <div class="row">
+                <img src="img/espiga.jpg" class="TESOROS" alt="TESOROS"> <P class="coloryellow subtitulos" >SEAMOS MEJORES MAESTROS</P>
+            </div>
+            <div class="row">
+                <div class="seccion1 row">
+                    <input type="text" placeholder="1-ingrese el tema" class="coloryellow widthauto flex1 first-div"oninput="resizeParent()"onpaste="setTimeout(resizeParent, 0)">
+                    <input type="text" placeholder="tiempo" class="tiempo widthauto second-div">
+                </div>
+               
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig">
+            </div>
+
+            <div class="row">
+                <div class="seccion1 row">
+                    <input type="text" placeholder="2-ingrese el tema" class="coloryellow widthauto flex1 first-div " oninput="resizeParent()"onpaste="setTimeout(resizeParent, 0)">
+                    <input type="text" placeholder="tiempo" class="tiempo widthauto second-div">
+                </div>
+               
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig">
+                
+            </div>
+            <div class="row">
+                <div class="seccion1 row">
+                    <input type="text" placeholder="3-ingrese el tema" class="coloryellow widthauto flex1 first-div" oninput="resizeParent()"onpaste="setTimeout(resizeParent, 0)">
+                    <input type="text" placeholder="tiempo" class="tiempo widthauto second-div">
+                </div>
+               
+               
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig">
+            </div>
+            
+            <div class="row">
+                <div class="row flex1" >
+                    <img src="img/ovejas.png" class="TESOROS" alt="TESOROS"> <P class="colorred subtitulos" >NUESTRA VIDA CRISTIANA</P>
+                </div>
+               
+                <div class="row flex1 right">
+                    <p class="fontS">Cancion:</p>
+                    <input type="text" class="num" placeholder="num">
+                </div>
+            </div>
+
+    
+
+            <div class="row">
+                <div class="seccion1 row">
+                    <input type="text" placeholder="5-ingrese el tema" class="colorred widthauto flex1 first-div">
+                    <input type="text" placeholder="tiempo" class="tiempo widthauto second-div">
+                </div>
+                
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig">
+            </div>
+
+            <div class="row">
+                <P class="fontS">ESTUDIO BIBLICO DE LA CONGREGACION</P><P class="tiempo">(30 MINS)</P>
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig width100">
+                <P class="fontS">LECTOR:</P>
+                <input type="text" placeholder="hermanoAsig" class="hermanoAsig width100 ">
+            </div>
+            <div class="row">
+                <p class="fontS">Palabras de conclusion (3 mins)</p>
+                <div class=" row flex1">
+                    <p class="fontS flex1">Cancion:</p>
+                    <input type="text" placeholder="num" class="num flex1">
+                </div>
+               
+                <div class=" row flex1"><p class="fontS flex1"> Oracion:</p>
+                    <input type="text" placeholder="hermanoAsig " class="hermanoAsig width100">
+                </div>
+                
+            </div>
+            <HR></HR>
        </div>
     </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+    <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+			integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+   <script src="script.js"></script>
 </body>
 </html>
