@@ -308,12 +308,12 @@ justify-items: center;
     width: 10vw;
 }
 
-input{
+input {
     width: 100%;
     font-size: 0.9em;
     padding: 0;
     margin: 0;
-    border: none;
+    border: none; /* Elimina el borde para todos los inputs */
 }
 
 .num{
@@ -412,4 +412,13 @@ hr {
 
 .right{
     justify-content: end;
+}
+
+input:focus {
+    /* Establece el borde inferior cuando el input está en foco */
+    border-top: none;
+    border-bottom: 4px solid #8E2DE2;
+    scale: 1.1;
+    text-align: center;
+    transition: all 0.7s;
 }

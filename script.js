@@ -41,5 +41,32 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-v
 
+
+// Obtener todos los elementos con la clase "tiempo"
+var elementosTiempo = document.getElementsByClassName("tiempo");
+
+// Variable para controlar si se ha mostrado la alerta
+var alertaMostrada = false;
+
+// Iterar sobre la colección de elementos y agregar el evento blur a cada uno
+for (var i = 0; i < elementosTiempo.length; i++) {
+    elementosTiempo[i].addEventListener("blur", function() {
+        var valor = parseInt(this.value.trim());
+        if (!isNaN(valor) && valor >= 0 && valor <= 60) { // Verifica si el valor es un número válido entre 0 y 60
+            this.value = valor + " Mins.";
+        } else {
+            if (!alertaMostrada) {
+                alert("Por favor, ingrese un número válido entre 0 y 60.");
+                alertaMostrada = true;
+            }
+            this.value = ""; // Vaciar el campo si el valor ingresado no es válido
+            this.focus(); // Devolver el foco al input para que el usuario pueda corregir
+        }
+    });
+
+    // Agregar event listener para el evento input que limpia la alertaMostrada
+    elementosTiempo[i].addEventListener("input", function() {
+        alertaMostrada = false; // Limpiar la alertaMostrada cuando el usuario continúa interactuando con el input
+    });
+}
