@@ -151,13 +151,7 @@ img{
 }
 
 
-.container {
-    width: 100%;
-    display: flex;
-    background-color: rgb(235, 238, 243);
-    margin: 0;
-   
-}
+
 
 .card{
     width: 50%;
@@ -215,7 +209,7 @@ img{
 
 .estructura1{
 border-style: solid;
-height: calc((100vh / 0.21)*0.2); 
+height: calc((100vh / 0.11)*0.2); 
 width: calc((100vw / 0.297)*0.2); 
 background-color: #fff;
 overflow: hidden;
@@ -240,10 +234,13 @@ justify-items: center;
     color: #413f3f;
 }
 .week{
-    
+    display: flex;
+    flex-direction: column;
     height: 25vh;
     width: 100%;
     border-color: black;
+    margin-bottom: 80px;
+    padding: 10px;
 }
 .rowHeader{
     
@@ -271,6 +268,7 @@ justify-items: center;
     flex-direction: row;
     align-items: center; /* Centrar los elementos horizontalmente */
     text-align: center;
+    position: relative;
 }
 .row1{
     font-size: 11px;
@@ -404,9 +402,9 @@ input {
     padding-left: 10px;
 }
 hr {
-    border: none;
-    height: 2px;
-    background-color: #ccc;
+    
+    height: 10px;
+    background-color: #000000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombras */
   }
 
@@ -421,4 +419,56 @@ input:focus {
     scale: 1.1;
     text-align: center;
     transition: all 0.7s;
+}
+
+
+
+.botonCircular {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #8E2DE2;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: width 0.9s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: medium;
+    
+  }
+  
+  .botonCircular:hover {
+    width: 120px;
+    border-radius: 10px;
+  }
+  
+  #icono {
+    transition: opacity 0.3s ease;
+  }
+  
+  .innerButton {
+    display: none;
+    position: absolute;
+   
+    right: 20px;
+}
+
+.innerButton2 {
+    display: none;
+    position: absolute;
+   
+    right: 3px;
+}
+
+.cambioDiv{
+    background-color: #8E2DE2;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 10px;
+
 }

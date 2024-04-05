@@ -27,18 +27,41 @@ function OcultarMostrar() {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#btnConvertirPDF').addEventListener('click', function () {
-        html2canvas(document.querySelector('#contenido')
-        , {
-            scale: 0.8, // Escala la captura al 80%
+        const contenido = document.querySelector('#contenido');
+        const contenidoRect = contenido.getBoundingClientRect(); // Obtener dimensiones del contenido
+
+        html2canvas(contenido, {
+            scale: 1, // Escala la captura al 80%
             logging: true, // Habilita el registro para depuración
-            width: 1000 // Ancho del canvas
+            width: contenidoRect.width, // Ancho del canvas igual al ancho del contenido
+            height: contenidoRect.height // Alto del canvas igual al alto del contenido
         }).then((canvas) => {
             let base64image = canvas.toDataURL('image/png');
-            let pdf = new jsPDF('p', 'px', [canvas.width-5, canvas.height]);
+            let pdf = new jsPDF('p', 'px', [canvas.width, canvas.height], true); // Con true se activa el autoPaging
             pdf.addImage(base64image, 'PNG', 0, 0, canvas.width, canvas.height);
             pdf.save('estructura1.pdf');
         });
     });
+});
+
+
+document.getElementById("botonClonar").addEventListener("click", function() {
+    // Clonar el div original
+    var divOriginal = document.getElementById("divOriginal");
+    var divClonado = divOriginal.cloneNode(true);
+    
+    // Agregar el div clonado después del div original
+    divOriginal.parentNode.insertBefore(divClonado, divOriginal.nextSibling);
+});
+
+
+document.getElementById("botonClonar2").addEventListener("click", function() {
+    // Clonar el div original
+    var divOriginal = document.getElementById("divOriginal2");
+    var divClonado = divOriginal.cloneNode(true);
+    
+    // Agregar el div clonado después del div original
+    divOriginal.parentNode.insertBefore(divClonado, divOriginal.nextSibling);
 });
 
 
@@ -70,3 +93,51 @@ for (var i = 0; i < elementosTiempo.length; i++) {
         alertaMostrada = false; // Limpiar la alertaMostrada cuando el usuario continúa interactuando con el input
     });
 }
+
+function expandirBoton() {
+    document.getElementById("icono").textContent = "Agregar semana";
+  }
+  
+  function contraerBoton() {
+    document.getElementById("icono").textContent = "+";
+  }
+
+  function duplicarDiv(button) {
+    // Crear un nuevo div y copiar el contenido del div original
+    var originalDiv = document.getElementById('originalDiv');
+    var clonedDiv = originalDiv.cloneNode(true);
+
+    // Remover el id del div clonado para evitar duplicación de IDs
+    clonedDiv.removeAttribute('id');
+
+    // Pegar el div clonado al final del div original
+    originalDiv.parentNode.appendChild(clonedDiv);
+
+    // Mover el botón debajo del div clonado
+    setTimeout(function() {
+        button.parentNode.removeChild(button); // Eliminar el botón del lugar actual
+        document.body.appendChild(button); // Mover el botón al final del documento
+    }, 0);
+}
+
+
+
+
+
+
+
+function showButton(container1) {
+    var button = container1.querySelector('.innerButton');
+    button.style.display = 'block';
+    var button2 = container1.querySelector('.innerButton2');
+    button2.style.display = 'block';
+}
+
+function hideButton(container1) {
+    var button = container1.querySelector('.innerButton');
+    button.style.display = 'none';
+    var button2 = container1.querySelector('.innerButton2');
+    button2.style.display = 'none';
+}
+
+
